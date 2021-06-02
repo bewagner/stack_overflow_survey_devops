@@ -4,11 +4,33 @@ This is the repository for my analysis on developer sentiment towards DevOps wit
 the [Stack Overflow 2020 Developer Survey](https://insights.stackoverflow.com/survey) data. Take a look at
 my [blog post](https://bewagner.net/programming/2021/06/01/stackoverflow-developer-survey/) for the full analysis.
 
-The Python code for the analysis can be found in `Developer survey blog post.ipynb`. It uses the `pandas` library to
-transform and visualize the data. The visualizations for the final blog post are the files `plot1.png`, `plot2.png`
-and `plot3.png`.
+## Motivation
 
-# Summary of the results
+The aim of this repository is a data analysis according to the CRISP-DM data science project model. I chose the Stack
+Overflow 2020 Developer Survey because it contains data about developer sentiment towards DevOps.
+
+DevOps is an important topic in the software development world. For some time it got quite some hype. I was interested
+in whether this has lead to widespread adoption and how developers feel about the topic. 
+
+## Dependencies
+
+The Python code for the analysis can be found in `Developer survey blog post.ipynb`. It uses the `pandas` library to
+transform and visualize the data. You can install it via
+
+```commandline
+pip install pandas
+```
+
+## Files in this repository
+
+- `Developer survey blog post.ipynb`
+  Notebook file that contains the data analysis
+- `survey_results_public.csv.zip`
+  Data I downloaded from the Stack Overflow Developer Survey site
+- `plotX.png/.svg`
+  Image files for the plots used in the blog post
+
+## Summary of the results
 
 The analysis tries to answer the following questions:
 
